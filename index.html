@@ -11,19 +11,19 @@
     <p id="description">Welcome, here you will learn with the master.</p>
     <form id="survey-form">
 
-        <fieldset>
+        <fieldset id="field">
             <label id="name-label">Name
                 <input required type="text" id="name" placeholder="name"><br>
             </label>
             <label id="email-label">Email
                 <input required type="email" id="email" placeholder="email"><br
             </label>
-            <label id="number-label">Email
+            <label id="number-label">Age
                 <input required type="number" id="number" min="5" max="70" placeholder="age">
             </label>
         </fieldset>
 
-        <fieldset>
+        <fieldset id="field">
             <p>Are you new to programming?</p>
             <label id="new-label">
                 <input type="radio" name="programming" value="Yes">Yes
@@ -33,7 +33,7 @@
             </label>
         </fieldset>
         
-        <fieldset>
+        <fieldset id="field">
             <label id="ask-label">I wanted to learn: </label>
             <select id="dropdown">
                 <option>Learn Web Design</option>
@@ -42,7 +42,7 @@
             </select>
         </fieldset>
 
-        <fieldset>
+        <fieldset id="field">
             <p>Select your teacher/tutor:</p>
             <label id="teacher-select">
                 <input type="checkbox" value="Kezoota">Kezoota
@@ -65,8 +65,8 @@
             </label>
         </fieldset>
 
-        <fieldset>
-            <p>Input your goals.expectation after joining the BootCamp</p>
+        <fieldset id="field">
+            <p>Input your goals/expectation after joining the BootCamp</p>
             <label id="text-area">
                 <textarea name="comment" id="comment" cols="60" rows="5"></textarea>
             </label>
