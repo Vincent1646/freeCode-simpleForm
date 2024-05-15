@@ -6,6 +6,71 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1 id="title">Tamasya BootCamp 101</h1>
+    <p id="description">Welcome, here you will learn with the master.</p>
+    <form id="survey-form">
+
+        <fieldset>
+            <label id="name-label">Name
+                <input required type="text" id="name"><br>
+            </label>
+            <label id="email-label">Email
+                <input required type="email" id="email">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <p>Are you new to programming?</p>
+            <label id="new-label">
+                <input type="radio" name="new" value="Yes">Yes
+            </label>
+            <label id="no-label">
+                <input type="radio" name="no" value="No">No
+            </label>
+        </fieldset>
+        
+        <fieldset>
+            <label id="ask-label">I wanted to learn: </label>
+            <select id="dropdown">
+                <option>Learn Web Design</option>
+                <option>Learn Data Structure</option>
+                <option>Learn Java OOP</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <p>Select your teacher/tutor:</p>
+            <label id="teacher-select">
+                <input type="checkbox">Kezoota
+            </label>
+            <br>
+            <label id="teacher-select">
+                <input type="checkbox">Mizuto
+            </label>
+            <br>
+            <label id="teacher-select">
+                <input type="checkbox">Curtle
+            </label>
+            <br>
+            <label id="teacher-select">
+                <input type="checkbox">n0ms
+            </label>
+            <br>
+            <label id="teacher-select">
+                <input type="checkbox">bebeklak
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <p>Input your goals.expectation after joining the BootCamp</p>
+            <label id="text-area">
+                <textarea name="comment" id="comment" cols="60" rows="5"></textarea>
+            </label>
+            <br>
+            <label id="submit-label">
+                <input type="submit" id="submit">
+            </label>
+        </fieldset>
+    </form>
 </body>
 </html>
