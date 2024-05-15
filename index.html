@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1 id="title">Tamasya BootCamp 101</h1>
@@ -12,20 +13,23 @@
 
         <fieldset>
             <label id="name-label">Name
-                <input required type="text" id="name"><br>
+                <input required type="text" id="name" placeholder="name"><br>
             </label>
             <label id="email-label">Email
-                <input required type="email" id="email">
+                <input required type="email" id="email" placeholder="email"><br
+            </label>
+            <label id="number-label">Email
+                <input required type="number" id="number" min="5" max="70" placeholder="age">
             </label>
         </fieldset>
 
         <fieldset>
             <p>Are you new to programming?</p>
             <label id="new-label">
-                <input type="radio" name="new" value="Yes">Yes
+                <input type="radio" name="programming" value="Yes">Yes
             </label>
             <label id="no-label">
-                <input type="radio" name="no" value="No">No
+                <input type="radio" name="programming" value="No">No
             </label>
         </fieldset>
         
@@ -41,23 +45,23 @@
         <fieldset>
             <p>Select your teacher/tutor:</p>
             <label id="teacher-select">
-                <input type="checkbox">Kezoota
+                <input type="checkbox" value="Kezoota">Kezoota
             </label>
             <br>
             <label id="teacher-select">
-                <input type="checkbox">Mizuto
+                <input type="checkbox" value="Mizuto">Mizuto
             </label>
             <br>
             <label id="teacher-select">
-                <input type="checkbox">Curtle
+                <input type="checkbox" value="Curtle">Curtle
             </label>
             <br>
             <label id="teacher-select">
-                <input type="checkbox">n0ms
+                <input type="checkbox" value="n0ms">n0ms
             </label>
             <br>
             <label id="teacher-select">
-                <input type="checkbox">bebeklak
+                <input type="checkbox" value="bebeklak">bebeklak
             </label>
         </fieldset>
 
